@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: transaction-service
+  cloud:
+    config:
+      username: NTT_Data
+      password: NTT_D4t4
+      uri: http://127.0.0.1:8000
+  profiles:
+    active: dev
